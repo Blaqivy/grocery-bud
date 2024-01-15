@@ -1,0 +1,131 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Salsa", cursive;
+  background-color: whitesmoke;
+}
+section {
+  padding: 20px 0px;
+}
+.section-center {
+  background: white;
+  border-radius: 20px;
+  padding: 20px 40px;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 70px;
+}
+.alert {
+  margin-bottom: 20px;
+  height: 20px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+}
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+}
+.grocery-form h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-control {
+  display: flex;
+  justify-content: center;
+}
+#grocery {
+  padding: 5px;
+  padding-left: 10px;
+  background: whitesmoke;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 14px;
+  flex: 1 auto;
+}
+
+.submit-btn {
+  background: rgb(156, 215, 254);
+  border-color: transparent;
+  border-radius: 5px;
+  align-items: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  font-size: 14px;
+}
+.submit-btn:hover {
+  background: rgb(44, 166, 247);
+}
+.grocery-container {
+  margin-top: 2rem;
+  visibility: hidden;
+}
+.show-container {
+  visibility: visible;
+}
+.grocery-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  transition: 0.3s ease-in-out;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.grocery-item:hover {
+  background: rgb(193, 193, 193);
+}
+.title {
+  margin-bottom: 0;
+  color: black;
+  letter-spacing: 1px;
+}
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 0px 3px;
+}
+.edit-btn {
+  color: rgb(5, 177, 105);
+}
+.edit-btn:hover {
+  color: rgb(2, 122, 72);
+}
+.delete-btn {
+  color: rgb(249, 78, 30);
+}
+.delete-btn:hover {
+  color: #721c24;
+}
+.clear-btn {
+  text-transform: capitalize;
+  width: 150px;
+  height: 25px;
+  display: grid;
+  align-items: center;
+  color: #721c24;
+  font-family: "Salsa", cursive;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 10px;
+  margin: 0 auto;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+}
